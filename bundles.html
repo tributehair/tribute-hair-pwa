@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bundles | Tribute Hair & Body Care — Save on Wash Day Essentials</title>
+  <meta name="description" content="Shop Tribute Hair & Body Care bundles — curated wash-day sets pairing Silk Rain Moisturizing Shampoo, Velvet Dew Conditioner, and Clean Slate Clarifying Shampoo. Save more when you build your routine." />
+  <link rel="canonical" href="https://tributehairandbody.com/collections/bundles" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --burgundy: #6B1E2E;
+      --deep-burgundy: #4A0E1A;
+      --gold: #C9A84C;
+      --gold-dark: #B8922A;
+      --cream: #FAF6F0;
+      --white: #FFFFFF;
+      --text-dark: #1a1a1a;
+      --text-mid: #4a4a4a;
+      --text-muted: #8A6A70;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--text-dark); }
+
+    .collection-hero {
+      background: linear-gradient(135deg, var(--deep-burgundy) 0%, var(--burgundy) 100%);
+      color: var(--cream); text-align: center; padding: 72px 24px 56px;
+    }
+    .collection-hero p.eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+    .collection-hero h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2.4rem, 5vw, 4rem); font-style: italic; font-weight: 600; color: var(--cream); margin-bottom: 12px; }
+    .collection-hero p.sub { font-size: 15px; color: rgba(250,246,240,0.8); max-width: 520px; margin: 0 auto; }
+    .gold-rule { width: 48px; height: 2px; background: var(--gold); margin: 24px auto; }
+
+    .bundles-grid { max-width: 1100px; margin: 0 auto; padding: 56px 24px; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 32px; }
+
+    .bundle-card {
+      background: var(--white); border: 1px solid #e2d8cc; border-radius: 2px; overflow: hidden;
+      display: flex; flex-direction: column; position: relative;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .bundle-card:hover { box-shadow: 0 10px 40px rgba(107,30,46,0.14); transform: translateY(-2px); }
+
+    .bundle-card .ribbon {
+      position: absolute; top: 16px; right: -8px;
+      background: var(--gold); color: var(--deep-burgundy);
+      font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+      padding: 4px 12px; z-index: 1;
+    }
+
+    .bundle-header { background: var(--burgundy); padding: 28px 24px; border-bottom: 2px solid var(--gold); }
+    .bundle-header h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-style: italic; color: var(--cream); margin-bottom: 4px; }
+    .bundle-header p { font-size: 12px; color: rgba(250,246,240,0.75); }
+
+    .bundle-body { padding: 24px; flex: 1; display: flex; flex-direction: column; }
+
+    .bundle-includes { margin-bottom: 20px; }
+    .bundle-includes h3 { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 12px; }
+    .bundle-item { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; border-bottom: 1px solid #f0ebe3; }
+    .bundle-item:last-child { border-bottom: none; }
+    .bundle-item-dot { width: 6px; height: 6px; background: var(--gold); border-radius: 50%; margin-top: 6px; flex-shrink: 0; }
+    .bundle-item-name { font-size: 13px; font-weight: 600; color: var(--deep-burgundy); }
+    .bundle-item-desc { font-size: 12px; color: var(--text-muted); margin-top: 2px; }
+
+    .bundle-best-for { background: var(--cream); padding: 14px; margin-bottom: 20px; border-left: 3px solid var(--gold); }
+    .bundle-best-for p { font-size: 12px; color: var(--text-mid); font-style: italic; }
+
+    .bundle-footer { margin-top: auto; }
+    .price-row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 14px; }
+    .bundle-price { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 700; color: var(--deep-burgundy); }
+    .bundle-original { font-size: 14px; color: var(--text-muted); text-decoration: line-through; }
+    .bundle-savings { font-size: 12px; font-weight: 600; color: var(--gold-dark); }
+
+    .btn-bundle { display: block; background: var(--burgundy); color: var(--cream); text-align: center; text-decoration: none; padding: 14px; font-size: 13px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; border-radius: 2px; transition: background 0.2s; border: none; cursor: pointer; width: 100%; }
+    .btn-bundle:hover { background: var(--deep-burgundy); }
+
+    .value-strip { background: var(--deep-burgundy); padding: 40px 24px; text-align: center; }
+    .value-strip h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-style: italic; color: var(--gold); margin-bottom: 12px; }
+    .value-strip p { font-size: 14px; color: rgba(250,246,240,0.75); max-width: 560px; margin: 0 auto; }
+
+    footer { background: var(--deep-burgundy); color: rgba(250,246,240,0.6); text-align: center; padding: 20px; font-size: 11px; letter-spacing: 0.04em; }
+    @media (max-width: 768px) { .bundles-grid { grid-template-columns: 1fr; padding: 32px 16px; } }
+  </style>
+</head>
+<body>
+
+  <section class="collection-hero">
+    <p class="eyebrow">Tribute Hair &amp; Body Care</p>
+    <h1>Bundles &amp; Sets</h1>
+    <div class="gold-rule"></div>
+    <p class="sub">Build your complete wash-day routine. Every bundle is curated to work together — and save you more when you buy as a set.</p>
+  </section>
+
+  <div class="bundles-grid">
+
+    <!-- Bundle 1: Moisture System -->
+    <article class="bundle-card">
+      <span class="ribbon">Best Seller</span>
+      <div class="bundle-header">
+        <h2>The Moisture System</h2>
+        <p>Cleanse + Condition · 2 Products</p>
+      </div>
+      <div class="bundle-body">
+        <div class="bundle-includes">
+          <h3>What's Included</h3>
+          <div class="bundle-item">
+            <div class="bundle-item-dot"></div>
+            <div>
+              <div class="bundle-item-name">Silk Rain Moisturizing Shampoo</div>
+              <div class="bundle-item-desc">8 fl oz · Chamomile, white tea, bamboo, oat protein</div>
+            </div>
+          </div>
+          <div class="bundle-item">
+            <div class="bundle-item-dot"></div>
+            <div>
+              <div class="bundle-item-name">Velvet Dew Moisturizing Conditioner</div>
+              <div class="bundle-item-desc">8 fl oz · Marshmallow root, avocado oil, 72-hour moisture</div>
+            </div>
+          </div>
+        </div>
+        <div class="bundle-best-for">
+          <p><strong>Best for:</strong> Dry, coarse, natural, curly, and kinky hair types who want a complete weekly wash-day moisture routine.</p>
+        </div>
+        <div class="bundle-footer">
+          <div class="price-row">
+            <span class="bundle-price">$26.99</span>
+            <span class="bundle-original">$29.98</span>
+            <span class="bundle-savings">Save $2.99</span>
+          </div>
+          <a href="#" class="btn-bundle">Add Bundle to Cart</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Bundle 2: Full Reset -->
+    <article class="bundle-card">
+      <span class="ribbon">Complete Kit</span>
+      <div class="bundle-header">
+        <h2>The Full Reset</h2>
+        <p>Clarify + Cleanse + Condition · 3 Products</p>
+      </div>
+      <div class="bundle-body">
+        <div class="bundle-includes">
+          <h3>What's Included</h3>
+          <div class="bundle-item">
+            <div class="bundle-item-dot"></div>
+            <div>
+              <div class="bundle-item-name">Clean Slate Clarifying Castile Shampoo</div>
+              <div class="bundle-item-desc">8 fl oz · Monthly scalp reset, peppermint &amp; tea tree</div>
+            </div>
+          </div>
+          <div class="bundle-item">
+            <div class="bundle-item-dot"></div>
+            <div>
+              <div class="bundle-item-name">Silk Rain Moisturizing Shampoo</div>
+              <div class="bundle-item-desc">8 fl oz · Weekly moisturizing cleanse</div>
+            </div>
+          </div>
+          <div class="bundle-item">
+            <div class="bundle-item-dot"></div>
+            <div>
+              <div class="bundle-item-name">Velvet Dew Moisturizing Conditioner</div>
+              <div class="bundle-item-desc">8 fl oz · 72-hour moisture, marshmallow root slip</div>
+            </div>
+          </div>
+        </div>
+        <div class="bundle-best-for">
+          <p><strong>Best for:</strong> Heavy product users, locs, scalp-prone hair. Everything you need for a full monthly reset + weekly wash day maintenance.</p>
+        </div>
+        <div class="bundle-footer">
+          <div class="price-row">
+            <span class="bundle-price">$38.99</span>
+            <span class="bundle-original">$43.97</span>
+            <span class="bundle-savings">Save $4.98</span>
+          </div>
+          <a href="#" class="btn-bundle">Add Bundle to Cart</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Bundle 3: Scalp Focus -->
+    <article class="bundle-card">
+      <div class="bundle-header">
+        <h2>The Scalp Reset</h2>
+        <p>Clarify + Condition · 2 Products</p>
+      </div>
+      <div class="bundle-body">
+        <div class="bundle-includes">
+          <h3>What's Included</h3>
+          <div class="bundle-item">
+            <div class="bundle-item-dot"></div>
+            <div>
+              <div class="bundle-item-name">Clean Slate Clarifying Castile Shampoo</div>
+              <div class="bundle-item-desc">8 fl oz · Peppermint, tea tree, rosemary for scalp health</div>
+            </div>
+          </div>
+          <div class="bundle-item">
+            <div class="bundle-item-dot"></div>
+            <div>
+              <div class="bundle-item-name">Velvet Dew Moisturizing Conditioner</div>
+              <div class="bundle-item-desc">8 fl oz · Restore moisture after deep cleanse</div>
+            </div>
+          </div>
+        </div>
+        <div class="bundle-best-for">
+          <p><strong>Best for:</strong> Flaky scalp, itchy scalp, buildup-prone hair. Deep cleanse with immediate moisture restoration.</p>
+        </div>
+        <div class="bundle-footer">
+          <div class="price-row">
+            <span class="bundle-price">$25.99</span>
+            <span class="bundle-original">$28.98</span>
+            <span class="bundle-savings">Save $2.99</span>
+          </div>
+          <a href="#" class="btn-bundle">Add Bundle to Cart</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <div class="value-strip">
+    <h2>Why Bundle?</h2>
+    <p>Every Tribute product is formulated to work in sequence. The shampoo prepares the hair for the conditioner. The clarifying shampoo prepares the scalp for the moisturizing system. Bundles aren't just a discount — they're a complete hair care protocol designed to work together.</p>
+  </div>
+
+  <footer>
+    Tribute Hair &amp; Body Care / TXWNBS · PMB 410, 1671 E Broad St. Ste 103, Mansfield TX 76063 · hello@tributehairandbody.com · tributehairandbody.com
+  </footer>
+
+</body>
+</html>

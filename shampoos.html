@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shampoo Collection | Tribute Hair & Body Care</title>
+  <meta name="description" content="Shop Tribute Hair & Body Care's full shampoo collection — sulfate-free, paraben-free, silicone-free shampoos for natural, curly, kinky, and coily hair. Silk Rain Moisturizing Shampoo, Clean Slate Clarifying Castile Shampoo, and more." />
+  <link rel="canonical" href="https://tributehairandbody.com/collections/shampoos" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --burgundy: #6B1E2E;
+      --deep-burgundy: #4A0E1A;
+      --gold: #C9A84C;
+      --gold-dark: #B8922A;
+      --cream: #FAF6F0;
+      --white: #FFFFFF;
+      --text-dark: #1a1a1a;
+      --text-mid: #4a4a4a;
+      --text-muted: #8A6A70;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--text-dark); }
+
+    .collection-hero {
+      background: var(--burgundy);
+      color: var(--cream);
+      text-align: center;
+      padding: 64px 24px 48px;
+    }
+    .collection-hero p.eyebrow {
+      font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 12px;
+    }
+    .collection-hero h1 {
+      font-family: 'Cormorant Garamond', serif; font-size: clamp(2.2rem, 5vw, 3.6rem);
+      font-style: italic; font-weight: 600; color: var(--cream); margin-bottom: 12px;
+    }
+    .collection-hero p.sub {
+      font-size: 14px; color: rgba(250,246,240,0.75); max-width: 480px; margin: 0 auto;
+    }
+    .gold-rule { width: 48px; height: 2px; background: var(--gold); margin: 24px auto; }
+
+    .collection-grid {
+      max-width: 1100px; margin: 0 auto; padding: 48px 24px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 28px;
+    }
+
+    .product-card {
+      background: var(--white); border: 1px solid #e2d8cc;
+      border-top: 3px solid var(--gold); border-radius: 2px; overflow: hidden;
+      transition: box-shadow 0.2s, transform 0.2s;
+      display: flex; flex-direction: column;
+    }
+    .product-card:hover { box-shadow: 0 8px 32px rgba(107,30,46,0.12); transform: translateY(-2px); }
+
+    .card-img {
+      width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block;
+      background: var(--cream);
+    }
+
+    .card-body { padding: 20px 20px 24px; flex: 1; display: flex; flex-direction: column; }
+
+    .card-tag { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 8px; }
+
+    .card-name { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-style: italic; font-weight: 600; color: var(--deep-burgundy); margin-bottom: 4px; }
+
+    .card-type { font-size: 12px; color: var(--text-mid); margin-bottom: 12px; letter-spacing: 0.04em; }
+
+    .card-desc { font-size: 13px; color: var(--text-mid); line-height: 1.65; margin-bottom: 16px; flex: 1; }
+
+    .card-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+    .card-badge { font-size: 9px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 8px; background: var(--cream); border: 1px solid #ddd8d0; color: var(--text-mid); border-radius: 2px; }
+
+    .card-footer { display: flex; align-items: center; justify-content: space-between; }
+    .card-price { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 700; color: var(--deep-burgundy); }
+    .card-cta { background: var(--burgundy); color: var(--cream); text-decoration: none; padding: 10px 20px; font-size: 12px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; border-radius: 2px; transition: background 0.2s; }
+    .card-cta:hover { background: var(--deep-burgundy); }
+
+    .bundle-banner {
+      background: var(--deep-burgundy); color: var(--cream);
+      text-align: center; padding: 40px 24px; margin: 0 24px 48px;
+      border-radius: 2px;
+    }
+    .bundle-banner h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-style: italic; color: var(--gold); margin-bottom: 8px; }
+    .bundle-banner p { font-size: 14px; color: rgba(250,246,240,0.8); margin-bottom: 20px; }
+    .bundle-banner a { background: var(--gold); color: var(--deep-burgundy); text-decoration: none; padding: 12px 28px; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; border-radius: 2px; display: inline-block; }
+
+    footer { background: var(--deep-burgundy); color: rgba(250,246,240,0.6); text-align: center; padding: 20px; font-size: 11px; letter-spacing: 0.04em; }
+  </style>
+</head>
+<body>
+
+  <section class="collection-hero">
+    <p class="eyebrow">Tribute Hair &amp; Body Care</p>
+    <h1>Shampoos</h1>
+    <div class="gold-rule"></div>
+    <p class="sub">Sulfate-free. Paraben-free. Silicone-free. Formulated for dry, coarse, natural, curly, and kinky hair — and every texture in between.</p>
+  </section>
+
+  <div class="collection-grid">
+
+    <!-- Silk Rain -->
+    <article class="product-card">
+      <img class="card-img" src="/silk-rain-shampoo.jpg" alt="Silk Rain Moisturizing Shampoo" loading="lazy" />
+      <div class="card-body">
+        <p class="card-tag">Moisturizing</p>
+        <h2 class="card-name">Silk Rain</h2>
+        <p class="card-type">Moisturizing Shampoo · 8 fl oz</p>
+        <p class="card-desc">Chamomile and white tea infused base with bamboo extract, oat protein, and panthenol. Cleanses without stripping — leaves hair soft, hydrated, and ready to absorb conditioner.</p>
+        <div class="card-badges">
+          <span class="card-badge">Dry Hair</span>
+          <span class="card-badge">Coarse Hair</span>
+          <span class="card-badge">Natural Hair</span>
+          <span class="card-badge">Curly</span>
+          <span class="card-badge">Kinky</span>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">$14.99</span>
+          <a href="/products/silk-rain-moisturizing-shampoo" class="card-cta">View Product</a>
+        </div>
+      </div>
+    </article>
+
+    <!-- Clean Slate -->
+    <article class="product-card">
+      <img class="card-img" src="/clean-slate-shampoo.jpg" alt="Clean Slate Clarifying Castile Shampoo" loading="lazy" />
+      <div class="card-body">
+        <p class="card-tag">Clarifying</p>
+        <h2 class="card-name">Clean Slate</h2>
+        <p class="card-type">Clarifying Castile Shampoo · 8 fl oz</p>
+        <p class="card-desc">Castile-based reset with peppermint, tea tree, and rosemary. Removes product buildup, mineral deposits, and scalp debris for all hair types. Monthly use recommended.</p>
+        <div class="card-badges">
+          <span class="card-badge">All Hair Types</span>
+          <span class="card-badge">Scalp Care</span>
+          <span class="card-badge">Buildup Removal</span>
+          <span class="card-badge">Locs</span>
+        </div>
+        <div class="card-footer">
+          <span class="card-price">$13.99</span>
+          <a href="/products/clean-slate-clarifying-castile-shampoo" class="card-cta">View Product</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+
+  <!-- Bundle Banner -->
+  <div class="bundle-banner">
+    <h2>Build Your Bundle</h2>
+    <p>Pair a shampoo with Velvet Dew Conditioner and save on your full wash-day routine.</p>
+    <a href="/collections/bundles">Shop Bundles</a>
+  </div>
+
+  <footer>
+    Tribute Hair &amp; Body Care / TXWNBS · PMB 410, 1671 E Broad St. Ste 103, Mansfield TX 76063 · hello@tributehairandbody.com
+  </footer>
+
+</body>
+</html>
