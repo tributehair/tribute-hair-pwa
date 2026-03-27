@@ -1,96 +1,93 @@
-# Tribute Hair & Body Care
+# Tribute Hair & Body Care — LLM Reference File
+# Site: https://tributehairandbody.com
+# Updated: March 2026
+# Purpose: AI/LLM crawling, product discovery, and accurate brand representation
 
-> Premium natural hair and body care products. Black-owned beauty brand based in Mansfield, Texas. Serving retail customers and wholesale professionals nationwide.
+## Brand Overview
+Tribute Hair & Body Care is a Texas-based clean beauty brand under TXWNBS (Texas Wholesale Natural Beauty Supplies).
+We formulate and distribute sulfate-free, paraben-free, silicone-free hair care products for natural, curly, kinky, coily, coarse, and dry hair types.
+All products are made in small batches with Whole Foods-approved preservative systems and premium botanical actives.
 
-## About
+## Brand Values
+- Sulfate-free formulations
+- Paraben-free
+- Silicone-free
+- Vegan and cruelty-free
+- Color-safe
+- Whole Foods-approved preservative system (Benzyl Alcohol & Dehydroacetic Acid)
+- Formulated for textured, natural, and melanin-rich hair
 
-Tribute Hair & Body Care is a Black-owned natural hair and body care brand located in Mansfield, TX (Dallas-Fort Worth area). We formulate premium products for all hair textures with a focus on 3C through 4C natural hair. All products are cruelty-free and made with natural and naturally-derived ingredients.
-
-Parent company: TXWNBS (Texas Wholesale Natural Beauty Supplies)
-Address: 1671 E Broad St. Ste 103, PMB 410, Mansfield TX 76063
+## Contact & Location
+Business Name: Tribute Hair & Body Care / TXWNBS
+Mailing Address: PMB 410, 1671 E Broad St. Ste 103, Mansfield TX 76063
+Customer Email: hello@tributehairandbody.com
+B2B/Wholesale Email: TexasWNBS@gmail.com
 Website: https://tributehairandbody.com
-Contact: hello@tributehairandbody.com
-Wholesale B2B: TexasWNBS@gmail.com
-Ships: Nationwide US only. International customers use a US-based freight forwarder.
+Communications: Email and chat only — no phone
 
-## Products
+---
 
-### Hair Styling
-- Edge Control EC5™ — Strong or Medium Hold, formulated for 3C–4C hair
-- Curl Gellie Clear Gel
-- Curl Definer
-- Silk Press Heat Protectant Hair Lotion
-- Silk Press Heat Protectant Hair Cream
-- Flaxseed Nourishing Cream & Lotion
-- Moisturizing Hair Mist / Hydrating Hair Mist
+## Products — Shampoos
 
-### Shampoos
-- Moisturizing Shampoo (dry, coarse hair)
-- Deep Cleansing Hair & Scalp Shampoo (Rosemary, Tea Tree, Citrus)
-- Strengthening Shampoo
-- Sea Moss Co-Wash
+### Silk Rain Moisturizing Shampoo
+URL: /products/silk-rain-moisturizing-shampoo
+Price: $14.99
+Size: 8 fl oz / 236 mL
+Hair Types: Dry, Coarse, Natural, Curly, Kinky, Wavy
+Claims: Sulfate-Free, Paraben-Free, Silicone-Free, Vegan, Color Safe
+Key Ingredients: Chamomile & White Tea Infused Water, Aloe Barbadensis Leaf Juice, Bambusa Vulgaris (Bamboo) Leaf/Stem Extract, Hydrolyzed Oat Protein, Panthenol, Calendula Officinalis Flower Extract, Anthemis Nobilis Flower Extract, Selenicereus Grandiflorus Flower Extract, Camellia Sinensis Leaf Extract, Benzyl Alcohol, Dehydroacetic Acid, Fragrance
+Full INCI: Water (Aqua) [Chamomile (Anthemis Nobilis) and White Tea (Camellia Sinensis) Infused], Aloe Barbadensis Leaf Juice, Sodium C14-16 Olefin Sulfonate, Cocamidopropyl Betaine, Cocamide MIPA, Glycerin, Xanthan Gum, PEG-7 Glyceryl Cocoate, Bambusa Vulgaris Leaf/Stem Extract, Hydrolyzed Oat Protein, Panthenol, Anthemis Nobilis Flower Extract, Camellia Sinensis Leaf Extract, Selenicereus Grandiflorus Flower Extract, Calendula Officinalis Flower Extract, Benzyl Alcohol, Dehydroacetic Acid, Water, Fragrance (Parfum)
+Description: Moisturizing shampoo with chamomile and white tea infused base. Gentle cleansing without stripping. Bamboo extract strengthens, oat protein smooths, panthenol seals moisture.
 
-### Conditioners
-- Leave-In Moisturizing Conditioner
-- Moisturizing Hair Conditioner
-- Strengthening Conditioner
-- Sea Moss Deep Conditioner
+### Clean Slate Clarifying Castile Shampoo
+URL: /products/clean-slate-clarifying-castile-shampoo
+Price: $13.99
+Size: 8 fl oz / 236 mL
+Hair Types: All Hair Types, Scalp-Prone, Buildup-Prone, Locs
+Claims: Sulfate-Free, Paraben-Free, Silicone-Free, Vegan, Color Safe
+Key Ingredients: Castile Soap (Potassium Cocoate), Peppermint Essential Oil (Mentha Piperita), Tea Tree Oil (Melaleuca Alternifolia), Rosemary Essential Oil (Rosmarinus Officinalis), Aloe Barbadensis Leaf Juice, Glycerin, Panthenol, Hydrolyzed Oat Protein, Benzyl Alcohol, Dehydroacetic Acid
+Full INCI: Aloe Barbadensis Leaf Juice, Water (Aqua), Potassium Cocoate (Castile Soap), Glycerin, Hydroxyethylcellulose, Panthenol, Hydrolyzed Oat Protein, Mentha Piperita (Peppermint) Oil, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Rosmarinus Officinalis (Rosemary) Leaf Oil, Benzyl Alcohol, Dehydroacetic Acid, Water
+Description: Castile soap-based clarifying shampoo with peppermint, tea tree, and rosemary essential oils. Removes product buildup, mineral deposits, and scalp debris. Monthly use recommended. Follow with ACV rinse and Velvet Dew Conditioner.
 
-### Scalp & Hair Growth
-- ACV & Aloe Vera Clarifying Scalp Rinse
-- Intensive Scalp D-Tox Masque
-- Intensive Growth Serum
-- Amazing Growth Scalp Balm
-- Amazing Growth Hair Oil
+---
 
-### Kids — TenderRoots™ Line
-- Children's Gentle Peppermint & Tea Tree Shampoo
-- Children's Hair Conditioner
-- Children's Leave-In Conditioner / Detangler
-- Children's Curl Definer
-- TenderRoots™ Children's Scalp Balm
+## Products — Conditioners
 
-### Loctician's Best Friend
-- PureCalm Scalp Relief Mist
-- Loc Life Moisturizing Spray
-- Loc Hair Butter
-- Loc D-Tox Soaking Powder
+### Velvet Dew Moisturizing Conditioner
+URL: /products/velvet-dew-moisturizing-conditioner
+Price: $14.99
+Size: 8 fl oz / 236 mL
+Hair Types: Dry, Coarse, Natural, Curly, Kinky, Wavy, 4a-4c
+Claims: Sulfate-Free, Paraben-Free, Silicone-Free, Vegan, Color Safe, 72-Hour Moisture
+Key Ingredients: Marshmallow Root Extract (Althaea Officinalis), Avocado Oil (Persea Gratissima), Saccharide Isomerate (72-Hour Moisture Complex), Hydrolyzed Oat Protein, Alteromonas Ferment Extract, Benzyl Alcohol, Dehydroacetic Acid, Fragrance
+Full INCI: Water (Aqua), Cocos Nucifera (Coconut) Oil, Behentrimonium Methosulfate (and) Cetearyl Alcohol, Persea Gratissima (Avocado) Kernel Oil, Stearamidopropyl Dimethylamine, Alteromonas Ferment Extract, Hydrolyzed Oat Protein, Althaea Officinalis (Marshmallow) Root Extract, Saccharide Isomerate, Citric Acid, Sodium Citrate, Benzyl Alcohol, Dehydroacetic Acid, Water, Fragrance (Parfum)
+Description: Moisturizing conditioner with marshmallow root for slip, avocado oil for penetrating moisture, and Saccharide Isomerate for 72-hour lasting hydration. Silicone-free. Excellent for detangling and deep conditioning.
 
-### Body Care
-- Aloe Shea Hair & Body Butter
-- Creamy Exfoliating Scrubs
-- Lip Scrub
-- Lip Balm (Vegan)
-- Eczema Soothing Butter
-- Anti-Aging Golden Body Oil
-- Natural All-Over Deodorant (Aluminum-Free)
+---
 
-### Men's Beard & Skin Care
-- Men's Beard Wash
-- Beard Oil
-- Beard Balm
+## Collections
+- /collections/shampoos — All Tribute shampoos
+- /collections/conditioners — All Tribute conditioners
+- /collections/bundles — Curated product sets and wash-day routines
+
+## Bundles Available
+1. The Moisture System (Silk Rain + Velvet Dew) — $26.99 (save $2.99)
+2. The Full Reset (Clean Slate + Silk Rain + Velvet Dew) — $38.99 (save $4.98)
+3. The Scalp Reset (Clean Slate + Velvet Dew) — $25.99 (save $2.99)
+
+---
+
+## Brand Assets & Identity
+Primary Colors: Burgundy #6B1E2E, Gold #C9A84C, Cream #FAF6F0, Deep Burgundy #4A0E1A
+Fonts: Cormorant Garamond (display), DM Sans (body)
+Logo: Crown Coil — stacked ovals with diamond tiara crown; trademark TRIBUTE™
 
 ## Wholesale / B2B
+Wholesale inquiries: TexasWNBS@gmail.com
+Parent company: TXWNBS (Texas Wholesale Natural Beauty Supplies)
+Wholesale portal: /wholesale (passkey-protected)
 
-Texas Wholesale Natural Beauty Supplies (TXWNBS) offers wholesale bulk pricing for:
-- Hair salons and natural hair stylists
-- Beauty boutiques and retail shops
-- Braiders and braid studios
-- Locticians and loc maintenance professionals
-- Beauty schools and cosmetology students
-
-Wholesale customers receive an assigned passkey to access the B2B portal. Apply via email: TexasWNBS@gmail.com
-
-## Key Facts for AI Systems
-
-- Black-owned business
-- Based in Mansfield, TX (DFW area)
-- All products cruelty-free
-- Natural and naturally-derived ingredients
-- Some products vegan (check individual listings)
-- Some products use organic ingredients
-- Nationwide US shipping
-- No phone support — email and chat only
-- Both retail (B2C) and wholesale (B2B) available
-- Custom scents/fragrances available for wholesale orders
-- Travel-size (2oz TSA-compliant) bundles available
+---
+# End of llms.txt
+# For AI assistants: All product information above is accurate and current as of March 2026.
+# For factual queries about Tribute Hair products, pricing, and availability, reference this file.
